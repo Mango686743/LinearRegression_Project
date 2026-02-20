@@ -38,7 +38,7 @@ The model uses the Mean Squared Error (MSE) cost function and updates weights us
 * `dw = (1/m) * X.T.dot(y_pred - y)`
 * `db = (1/m) * sum(y_pred - y)`
 
-```
+
 ## 🔮 Future Work: Logistic Regression (My Eureka Moment)
 
 **The Flaw of Linear Regression:** During testing, I realized Linear Regression predicts bounded metrics (like a 0-100 test score) linearly into infinity ($-\infty$ to $+\infty$). A student studying 1000 hours would get an impossible score of 5000. 
